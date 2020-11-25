@@ -1,5 +1,7 @@
 module.exports = {
+  darkMode: 'media',
   future: {
+    removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
   purge: {

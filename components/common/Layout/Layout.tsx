@@ -78,11 +78,11 @@ const Layout: FC<Props> = ({ children, pageProps }) => {
         </Modal>
 
         <FeatureBar
-          title="This site uses cookies to improve your experience. By clicking, you agree to our Privacy Policy."
+          title="เว็บไซต์นี้ได้ใช้งานคุกกี้ เพื่อปรับปรุงประสบการณ์ผู้ใช้ กดปุ่มนี้ หากคุณยินยอมนโยบายความเป็นส่วนตัว"
           hide={acceptedCookies}
           action={
             <Button className="mx-5" onClick={onAcceptCookies}>
-              Accept cookies
+              ยอมรับ
             </Button>
           }
         />
