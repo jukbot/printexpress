@@ -1,9 +1,4 @@
 module.exports = {
-  darkMode: 'media',
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
   purge: {
     content: [
       './pages/**/*.{js,ts,jsx,tsx}',
