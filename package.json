@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "@bigcommerce/storefront-data-hooks": "^1.0.2",
+    "@headlessui/react": "^0.2.0",
     "@reach/portal": "^0.11.2",
     "@tailwindcss/ui": "^0.6.2",
     "@types/body-scroll-lock": "^2.6.1",
